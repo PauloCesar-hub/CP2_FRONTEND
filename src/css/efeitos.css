@@ -1,0 +1,57 @@
+/* === Efeitos Visuais: Vinheria Agnello === */
+
+/* --- Pseudo-classes --- */
+a:hover {
+  color: #d2691e;
+  transform: scale(1.05);
+  transition: all 0.3s ease;
+}
+
+input:focus, textarea:focus {
+  border-color: #8b0000;
+  box-shadow: 0 0 5px #8b0000;
+  transition: all 0.3s ease-in-out;
+}
+
+.gallery img:nth-child(odd) {
+  opacity: 0.8;
+}
+
+/* --- Pseudo-elementos --- */
+h1::after, h2::after {
+  content: " 🍷";
+  color: #8b0000;
+  font-size: 1.2em;
+}
+
+button::before {
+  content: "✨ ";
+}
+
+/* --- Animação --- */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+main, .form-container, .gallery {
+  animation: fadeInUp 1s ease-in-out;
+}
+
+/* --- Transformações e Transições --- */
+button:hover {
+  transform: scale(1.1) rotate(-1deg);
+  background-color: #8b0000;
+  transition: all 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.05) skew(-2deg);
+  transition: transform 0.3s ease;
+}
