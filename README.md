@@ -100,7 +100,7 @@ Ou acessar online via GitHub Pages:
 - Gustavo Panham Dourado - (RM:563904)
 - Christian Schunck de Almeida - (RM:563850)
 - Thomas Jeferson Santana Wang - (RM565104)
-
+- João Pedro Nishikawa Alves - (RM562376)
 ---
 
 ## 📌 Observações
