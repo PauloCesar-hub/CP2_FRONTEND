@@ -89,7 +89,7 @@ start index.html
 
 Ou acessar online via GitHub Pages:
 
-🔗 [Link para o site publicado no GitHub Pages](https://seuusuario.github.io/vinharia-agnello/)
+🔗 [Link para o site publicado no GitHub Pages](https://paulocesar-hub.github.io/CP2_FRONTEND/)
 
 ---
 
